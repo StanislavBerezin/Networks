@@ -1,4 +1,36 @@
 # Specs
+# Networks
+
+ARPANET -> 1982 (TCP/IP) --> WWW (1991)
+IMP to work with gigmachine (Interfae message processor)
+NCP -> Pcket switching (First made by ARPANET) to transmit data from devices
+IMP -> Gatweays (1st router)
+
+LAN - > liited connection (like computer clubs in old days)
+WAN -> bigger LAN
+MAN -> Metro city
+Internetwork -> devices connected by routers
+Internet -> worldwide internetwork TCP/IP for transfers with HTTP
+Intranet -> internal internetwork only those who connected internally can connect to acess
+Extranet -> allows limited # to external users
+
+Mac -> is a device address attached to each PC, helps to identify where to send packets
+Network interface -> card on motherboard to provide connection, and responsible for translation
+
+The 7 layers:
+
+1) Physical (4) -> converts bits into electrical impulses and signals
+2) Data link (3) -> MAC address, NIC (network interface), local IP
+3) Network (3) -> IP address, from who to who
+4) Transport (2) -> data transfer, MTU (frame size, max trans unit), TCP, header, port numbers sequence
+5) Session (1) -> Allows communication between devices before sending
+6) Presentation (1) -> Data formatting, compression,from data to binary 01, encryption
+7) App (1) -> data PDU
+
+(1) The data itself
+(2) Segragation into packets, sequaence, port number, transport headers(how to reassemble)
+(3) To who (IP), from who, routing
+(4)Identifies MAC address, ethernet locality
 
 
 # Routing
