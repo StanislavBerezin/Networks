@@ -33,7 +33,7 @@ The 7 layers:
 (4)Identifies MAC address, ethernet locality
 
 # NIC(2)
-This covers the PHYSICAL LAYER (Layer 1-> physical)
+PHYSICAL LAYER (Layer 1-> physical)
 START
 2 Categories -> 1) wired, 2) wireless
 - Bandwidth frequency -> how fast your connection is, amount of data transmitted, measured in hertz (Cycle per second)
@@ -59,8 +59,6 @@ Switch connects seeveral PC - network bridge -> requires no configuration, but i
 
 FINISH
 
-
-
 LAYER 3 (network layer 3)
 
 START
@@ -73,6 +71,16 @@ FINISH
 
 # Network Topologies
 
+- Bus topology -> cannected straight up
+- Star -> switch at the center, devices around
+- Extended star -> switch and stars around
+- Ring topology -> Man, metro, essentially circles of networks 
+- Point to multi point -> a central point to comncate with everyone and responsible for granting permissions etc
+- Mesh - same as PMP but has different routes, like blockchain, in case 1 breaks the connection is still up
+
+- Ethernet protcol -> how data is send, LAN, based on 802.3 every station has MAC (48 bits, 12 hex)
+- Ethernet frames -> Destination MAC, Source MAC, type data, FCS to check if its corrupted
+- Ethernet media access -> rules when a devices can be access not to allow congestion.
 
 # Routing
 
