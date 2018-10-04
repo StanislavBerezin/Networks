@@ -32,6 +32,47 @@ The 7 layers:
 (3) To who (IP), from who, routing
 (4)Identifies MAC address, ethernet locality
 
+# NIC(2)
+This covers the PHYSICAL LAYER (Layer 1-> physical)
+START
+2 Categories -> 1) wired, 2) wireless
+- Bandwidth frequency -> how fast your connection is, amount of data transmitted, measured in hertz (Cycle per second)
+- Network bandwith amount of data from 1 point to another, segment length, cable between devices
+
+RJ45 connector -> Ethernet jack, so cable UTP or STP (unshileded) and (shileded)
+When connecting PC the following concepts are used DTE and DCE (Data terminal/communication equipment) DCE more modern while DTE provides with terminal only.
+
+FINISH
+
+
+THIS IS LAYER 2 ( Data-link layer 2)
+
+START
+Switches, NIC -> Mac (48 bits, 12 hex -> 04-01-31-5B-1A-C4) the first 24 bits are for manufacturrer and the rest 24bit to device itself -> used for LAN
+When connecting wirelessly NIC uses SSID (service set identifir) wireless usually 802.11ac or 802.11
+
+- MAC is used to identify machines on the same network (layer 2)
+- IP is used to identify machine through different networks (layer 3)
+- NIC in this case works as an assembler of bits, electrical impulses into binary and vice versa. Additionally verifies MAC address, removes headers and sends result packets to network protocol (incoming). For (outgoing) recieves packets from network layer, creates frames headers with MAC and performs the conversion to bit.
+
+Switch connects seeveral PC - network bridge -> requires no configuration, but if needs to be controlled remotely then needs manual conf. 1) Recieves a frame and reads MAC address and destintion. 2) Forwards frame to designated MAC and updats MAC tabe. 
+
+FINISH
+
+
+
+LAYER 3 (network layer 3)
+
+START
+
+Routes connects multiple networks, switches are oonly smart on layer 2, routers can connect LAN, WAN's etc together by utlising IP addresses.
+
+So essentially switches work with MAC addresses, frames and switching tables, while routers work with IP, packets, routing table, broadcasts. These are the key differences between the 2.
+
+FINISH
+
+# Network Topologies
+
 
 # Routing
 
