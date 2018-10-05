@@ -158,6 +158,36 @@ Disadvantages: more complex to implement, CPU.
 
 # ICMP ARTP TCP and UDP (7)
 
+ARP - address resolution protocol (network layer)
+IP - for network, MAC for machine delivery (network layer)
+
+ARP is used to resolve a logical IP to MAC -> a sender broadcast requesting the hardware address of the destination, the destination responds unicast back to the source, telling it MAC. If address is cached then no need to send request, if no, then broadcast the requests. If local can be LAN requests if not the Router requests.   Sender and reciever caches addresses. To get MAC address it must be done locally.
+Vulnurability: spoofing, posinoing. Can be done locally
+
+ICMP (network layer)
+reports errors, reports to original sender. Used by routers and hosts, performs query/reply for the internet protocol. If destination unreachable it notifies. If time exceeded TTL field reaches zero ICMP messages back to source and says the time exceeded. Query messages. Traceroute shows path a packet takes to reach its destination.  TTL is the amount of routers we have to pass through, for example PC A sends a packet to destination B, and there are 3 routers. If TTL = 1, then ICMP will send time exceeded in the first router, if TTL = 2 then on the second and so on. So to make it work u need to have TTL = 4 to reach the final destination with 3 routers. ICMP sends return information to sender
+Vulnerability: DOS
+
+# TCP/IP level 4 (transport)
+Ensures the data is intact.  Reliable transfer. UDP small amount of data, lightweight (video). 
+TCP segments the data. Helps to identify what application is running. To protect it they checksum, CRC (data integrity). Error control, integrity control. flow control (not overwhelm). TC Pconnection oriented protocol, BEFORE establishes (three way handshake) process with the destination then data is transfered. AFTER the connection is terminated by a fourway handshake. TCP offers full-duplex service -> data can be send concurrenty in both direction.
+
+TCP headers
+- 16 bits SOURCE
+- 16 bits DESTINATION PORT (like nodejs listen.port, or react 8080 etc)
+- 32 bits SEQUENCE NUMBER -> how to assembe in what sequence
+- 32 bits ACKNOWLEDGMENT NUMBER -> tells that a specific data set recieved successfully, indicated that the next byte is expected from the other side of communication.
+- 4 bit HLEN -> if urgent URG, RST - reset the connection, PSH,, ACK, SYN (initiate), FIN(finish)
+- 6 bit RESERVER -> 
+- 6 bit BITS field
+- 16 bit WINDOW field - the size of the reciever buffer in bytes
+- 16 bits Checksum - for integrity
+- 16 bits POINTER -> flaglike HLEN
+
+TCP starts connection -> 
+3 way handsharke 
+-> data transfer -> connection with a 4 way.
+
 
 
 
