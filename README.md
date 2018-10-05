@@ -186,7 +186,7 @@ TCP headers
 
 TCP starts connection -> 
 3 way handsharke 
--> data transfer -> connection with a 4 way.
+-> data transfer -> connection with a 4 way
 
 
 
