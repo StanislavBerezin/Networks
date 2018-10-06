@@ -219,11 +219,49 @@ MIME - multio purpose internet mail extension
 
 FTP
 2 channels
-1) to control commands port 20
-2) to transfer files port 21
+1) to control commands port 20 (from server)
+2) to transfer files port 21 (from client)
 not secure
 
 Based on TCP as well
+
+SSH
+Remote access (like ES2 aws instance can be accessed through ssh) 
+telnet - port 23
+ssh - port 22
+
+DHCP (dynamic host conf protocol)
+Keeps IP addreses to hosts, if one pc is shut down it assigns IP to another computer, hence dynamic.On UDP port 67 for IP address requests.
+DHCP server is composed of
+- IP address scope - range of IPs server can lease to clients
+- scope options - IP settings, DNS
+- reservation - IP to particular MAC address
+- exclusion - a certain number of IP's to be excluded from scope
+
+Only for a certain period of time, when it reaches 50% time elapsed it asks if same IP can be used, if no response then its ok. Around 87.5 time expired it asks again, if no answer then uses it till the ened and eventually broadcasts dchp for new IP address.
+
+Broadcast Logic: 
+- DHCPDISCOVER - the client announces its search for DHCP server
+- DHCPOFFER - the server replies and offers an IP for lease
+- DHCPREQUEST - the client express the desire to use  IP
+- DHCPACK - the server acknowledges it and allows to to use IP
+
+DNS
+Names to IP adresses like 192.168.0.1 - www.welcome.org
+each .org .com. .com.au .gov etc have their own databases
+Uses UDP because its usually consists of a single pack
+- TLD - top level .com .org. .gov
+- SLD - second level .edu etc
+- Subdomain - is optional 
+
+DNS zone - difference spaces within a global DNS
+DNS zone file - representation of dzone
+Resource record - the data contained in the zone
+DNS cache - cache of DNS names
+ROOT hints - file containing of all IP address
+DNS - server service listens for DNS queries on UDP port 53
+
+
 
 
 
