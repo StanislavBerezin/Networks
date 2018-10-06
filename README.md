@@ -189,16 +189,41 @@ TCP starts connection ->
 -> data transfer -> connection with a 4 way
 
 
+# Application layer
+
+App layer: http, smtp (simple mail), ftp(file transfer), ssh(tell net secure socket-shell), dhcp(dynamic host conf), dns. 
+
+HTTP
+
+WWW -> main concept is hyper text
+
+Overview: u start a web browser and go to your website, web browser formats a request for home page by using app layer protocol http and goes down the chain of 7 OSI layers.
+ URL - document on the internet (uniqe) (page)
+  
+SMTP
+POP3 - post office protocol - download incomg messages from email servers to local area
+IMAP4 - internet message access protocol - to manage email messages locally
+SMTP - simple mail transfer protocol - sending email over the internet
+
+MUA - mail user agent 
+- email app
+- to create, send , recieve etc messages
+- to attach files
+
+MTA - message transfer agent
+- to prepare and transfer email messages
+
+MIME - multio purpose internet mail extension
+- to attach non-text based docs to emails
 
 
+FTP
+2 channels
+1) to control commands port 20
+2) to transfer files port 21
+not secure
 
-
-
-
-
-
-
-
+Based on TCP as well
 
 
 
