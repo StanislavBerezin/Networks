@@ -1,4 +1,3 @@
-# Specs
 # Networks
 
 ARPANET -> 1982 (TCP/IP) --> WWW (1991)
