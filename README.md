@@ -260,8 +260,18 @@ Resource record - the data contained in the zone
 DNS cache - cache of DNS names
 ROOT hints - file containing of all IP address
 DNS - server service listens for DNS queries on UDP port 53
+Vulnurabilites:
+- The basic DNS scheme is insecure
+- Cache poising attack - redirects to other website
+- Data interception/traffic diversion
+- Man in the middle
+- DOS
 
-
+DNSSEC
+Same as DNS but far more secure, it was  its initial goal.
+- If responds came from legit DNS source
+- Data integriy - checks if data was modified
+- Auth denial of existence
 
 
 
