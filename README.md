@@ -32,7 +32,7 @@ The 7 layers:
 (4)Identifies MAC address, ethernet locality
 
 # NIC(2)
-PHYSICAL LAYER (Layer 1-> physical)
+PHYSICAL LAYER (Layer 1=> physical)
 START
 2 Categories -> 1) wired, 2) wireless
 - Bandwidth frequency -> how fast your connection is, amount of data transmitted, measured in hertz (Cycle per second)
