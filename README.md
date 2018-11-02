@@ -277,6 +277,14 @@ Same as DNS but far more secure, it was  its initial goal.
 
 
 
+# IPv6
+IANA 5 regional, 
+- APRAN -america, 
+- LACCNC-latin, 
+- RIPE NCC - EU, RUSSIA, Middle east, 
+- AfrNIC - Africa,
+- APRNC-asia
+
 
 
 
