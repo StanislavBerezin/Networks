@@ -439,6 +439,16 @@ Vulnurabilities
 - TCP syn flood attack (handshake)
 - DNS dns cache poisining (redirect users to another website)
 
+for the sake of security
+- Identification and auth
+- Authorization
+- Encryption
+- Virtual private networks
+- Wireless security
+- Netwoork securtiy devices
+- malware protection
+
+
 
 
 
