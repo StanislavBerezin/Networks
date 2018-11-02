@@ -448,7 +448,7 @@ Elements:
 - Identification and auth - passwords - future (finger, face, retina scans, voice prints)
 - Authorization - decide who has access to what, acess limit
 - Encryption - prevents from packet snigger, eavesdropping (digital signature -> auth and integrity)
-- Virtual private networks
+- Virtual private networks (VPN) 
 - Wireless security
 - Netwoork securtiy devices
 - malware protection
@@ -478,7 +478,15 @@ contains
 - information affixed by the CA
 - CA signature
 
+VPN 
+creates a vpn tunnel between a client and server
+to provide confidentiality and integrity oer a public network
+PPTP (point to point tunneling protocol) Layer 2
+IPSEC (internet protocol security) network layer
+TLS/SSL transport layer security/socket , transport layer
+OpenPHP and secure shell (SSH) application layer
 
+VPN models
 
 
 
