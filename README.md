@@ -487,6 +487,25 @@ TLS/SSL transport layer security/socket , transport layer
 OpenPHP and secure shell (SSH) application layer
 
 VPN models
+Site to site - a vpn is established between 2 sites
+Client to site - a client establishes vpn connection with a site
+client to client
+
+Benefits of VPN
+- enable corp users to connect to internet securely
+- allow multiple sitest to maintain a secure connection
+- reduce costs by using the isp support services
+
+Secure wireless network
+WPA2, WPA, WEP
+MAC address filtering for router
+SSID service set identifier (user)
+Routers provide a layer of network securtiy by using acess control lists (ACL), firewall
+Firewall controls what comes in and out
+
+
+
+
 
 
 
