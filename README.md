@@ -323,6 +323,75 @@ Mobility support
 
 Co-existence 
 
+# Internet of things (IoT) cloud computing
+
+global infrastructure for the information society enabling advanced tech
+
+SMIGHT BASE ( like a base for tech things)
+- public wifi
+- emergency call
+- envrionment sensors
+- charging pooints
+- traffic and parking managment into street lighting
+
+
+Example of long/short range tech
+Lora 2 surban, 15 surban, 45km rural
+Sub-ghz
+ISM - yes
+date rate: 0.3 -27kbps
+Power consumption: low
+
+1)Sigfox 10-50km, 868/902 mgz
+2) zigBee 100m
+
+Assembly
+hardware
+- micro controller
+- transiever
+- actuators/sensors
+- power source
+
+LORA
+-  components
+controller - arduino
+transiever - SX1276
+Sensors
+Power supply
+- Gateway interface
+lora network SX1301
+internet IP based
+- Network Server
+network application server
+ 
+
+LORA arhitecture
+Network design
+- HW selection
+- Gateway placement
+- Security
+
+Network managment
+- Network performance dependencies
+- power consumption
+- firmware and soft updated
+- security
+- scalability
+- compatability
+
+Sass
+Everything is supplied by the provider
+
+PAAS
+Install applicaition urself, software system and computer hardware is supplied
+
+IASS
+App and system software should be installed by yourself
+
+
+
+
+
 
 
 
