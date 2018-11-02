@@ -413,12 +413,31 @@ Risk with protocols and software
 - administrators default security opt
 - intercepting transactions between applications
 
+Risk with internet access
+- network sec compromise (from inside
+- outside threats
+- common internet related issues (FTP), imporper conf firewall, DOS
+
+Security policies
+- privacy
+- authentication
+- internet use
+- acess
+- auditing
+- data protection
+
+If something happens then a response policy should be in place
+- security breach occurence
+- response team members
+- after problem resolution
 
 
-
-
-
-
+Vulnurabilities
+- IP fragmeneted packet attacks
+- ARP cache posioning man in the middle
+- ICMP ping of death attack
+- TCP syn flood attack (handshake)
+- DNS dns cache poisining (redirect users to another website)
 
 
 
