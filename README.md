@@ -304,11 +304,22 @@ FEDC:BA45:1234:3245:E54E:A101:1234:ABCD
 /60 (indicate the bits for network portion)
 is hexadecimal not in binary like 1090::9:900:210D:325F/60 where (::) represents zero
 
+DHCPv4 enables servers to allocate IP adresses to hosts that join the network
+In IPv6 the host will configure itself with IP without server, eliminating manual IP config, and dynamic renumbering (changing ISP's etc)
 
+QoS
+- protcols can provide different data streams with priorities with high quality, bandwtih and delay times
+- two field in IPv6 can be used for QoS - traffic class, the flow label.
 
+ 
+Built in support for IP secutrity unlike ipv4
+- uses extension headers for security provisioning
+- Auth header (AH) auth and integriy
+- Encapsulating security payload ESP (integrity and confidentiality)
 
-
-
+Mobility support
+- An IP adress is bound tighly to the network where the device is
+- 
 
 
 
