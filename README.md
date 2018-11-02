@@ -319,7 +319,11 @@ Built in support for IP secutrity unlike ipv4
 
 Mobility support
 - An IP adress is bound tighly to the network where the device is
-- 
+- Allows to have 2 IP addresses, a primary (home wifi) and secondary IP within the foreign network.
+
+Co-existence 
+
+
 
 
 
