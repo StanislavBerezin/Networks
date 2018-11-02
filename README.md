@@ -466,7 +466,17 @@ assymeric
 
 hash is encoded with owners private key 
 
-logic: text ->enc algo by public key => cipher text (only with private key can decrypt) => text
+enc logic: text ->enc algo by public key => cipher text (only with private key can decrypt) => text
+
+signature logic: signer with public and private key -> an algo computes doc with private key => document is send => the reciever uses public key everyone knows for veryifying, then upon recieving it compares to hash values if they are equal the data hasnt been interrupted.
+
+PKI (public key infrstructure)
+manages the keys and CA (certification authority)
+- binds a public key with the key owners identity by issuing CA
+contains
+- key owners identity
+- information affixed by the CA
+- CA signature
 
 
 
