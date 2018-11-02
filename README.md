@@ -286,62 +286,23 @@ IANA 5 regional,
 - APRNC-asia
 
 
+Router performs fragmentation but in IPv6 no. 
 
+2^32 - 4.3 billion IP addresses for IPv4
+NAT - all trafic leaving lan appears as originating from global IP address, behind it can use private IP addresses. NAT works as the routing mechanism, like nginx.
+NAT - cannot be used with IPSec in transport mode
+NAT 0 is not a firewall
+NAT - breaks the end to end communcations
+Plus - binding time out
+Shortage of IPv4 limits internet growth
 
+IPv4 and IPv6 header differences,
+Total length is gone, fragmentation is gone, checksum is gone 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+IPv6 2^128
+FEDC:BA45:1234:3245:E54E:A101:1234:ABCD
+/60 (indicate the bits for network portion)
+is hexadecimal not in binary like 1090::9:900:210D:325F/60 where (::) represents zero
 
 
 
