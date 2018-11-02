@@ -391,10 +391,27 @@ App and system software should be installed by yourself
 
 
 # Cyber security
+ zero-day-exploit - taking advantage of undiscovered software vulnurebilitiy, most of which are generally known
 
+Risk in association with people
+- human errors, ignorance, omissions
+- social engineering - phishing to be a pretender
 
+Risk associated with transmission and hardware
+- man in the middle
+- eavesdropping -listening
+- sniffing - repeatig devices brocast traffic
+- port acess via port scanner - unused port are not secured
+- router attack - router not configured to drop suspicious packets
 
-
+Risk with protocols and software
+- Transport, session, presentation and application layers
+- TCP/ip flaws
+- Invalid trust relationshops
+- NOS back doors
+- buffer overflow
+- administrators default security opt
+- intercepting transactions between applications
 
 
 
