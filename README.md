@@ -501,7 +501,13 @@ WPA2, WPA, WEP
 MAC address filtering for router
 SSID service set identifier (user)
 Routers provide a layer of network securtiy by using acess control lists (ACL), firewall
-Firewall controls what comes in and out
+Firewall controls what comes in and out (packets) (wireshark IP, TCP, ICMP, HTTP)
+
+malware - a threat to integrity by downloading programm, opening email attachment, browsing unsafe sites
+virus - spreads by replicating itself
+worm - type of malware that doesnt require another file to spead to other pc's, can create backdoor
+rootkit - allows access to elements bypassing authentication
+
 
 
 
