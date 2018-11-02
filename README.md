@@ -440,15 +440,33 @@ Vulnurabilities
 - DNS dns cache poisining (redirect users to another website)
 
 for the sake of security
-- Identification and auth
-- Authorization
-- Encryption
+multifactor - two types of auth 
+- knowledge - what the user knows
+- posession - what the user posesses
+- inherence - what the user is
+Elements:
+- Identification and auth - passwords - future (finger, face, retina scans, voice prints)
+- Authorization - decide who has access to what, acess limit
+- Encryption - prevents from packet snigger, eavesdropping (digital signature -> auth and integrity)
 - Virtual private networks
 - Wireless security
 - Netwoork securtiy devices
 - malware protection
 
+cryptoggraphy - study of creating and using enc anddecr
+cipher text - after encryption
 
+Cryptography
+symmetric
+- use the same key to encrypt and decrypt
+
+assymeric
+- public key
+- private key
+
+hash is encoded with owners private key 
+
+logic: text ->enc algo by public key => cipher text (only with private key can decrypt) => text
 
 
 
