@@ -1,4 +1,4 @@
-# Networks
+# Networks understanding
 
 ARPANET -> 1982 (TCP/IP) --> WWW (1991)
 IMP to work with gigmachine (Interfae message processor)
